@@ -1,0 +1,22 @@
+# Git files
+.git
+.gitignore
+
+# Docker specific files
+Dockerfile
+.dockerignore
+
+# Python virtual environment
+venv/
+*.venv
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# The large dataset folder should NOT be in the image
+New Plant Diseases Dataset(Augmented)/
+
+# IDE configuration folders
+.idea/
+.vscode/

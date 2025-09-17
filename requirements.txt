@@ -1,0 +1,9 @@
+Flask
+Flask-Cors
+Pillow
+numpy
+requests
+beautifulsoup4
+pymongo[srv]
+gunicorn
+tensorflow-cpu==2.15.0

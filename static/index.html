@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coconut Health Analyzer</title>
+    <!-- Link to the new, custom stylesheet -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>🥥 Coconut Health Analyzer</h1>
+            <p>On-the-spot disease detection powered by AI</p>
+        </header>
+
+        <main>
+            <!-- Camera View -->
+            <div id="camera-container" class="hidden">
+                <video id="video" autoplay playsinline></video>
+            </div>
+            <canvas id="canvas" class="hidden"></canvas>
+
+            <!-- Image Preview -->
+            <div id="image-preview" class="hidden">
+                <img id="preview-img" alt="Image preview">
+            </div>
+
+            <!-- Initial Action Buttons -->
+            <div id="upload-section">
+                <button id="use-camera-btn" class="btn btn-primary">
+                    <span>📸</span> Use Camera
+                </button>
+                <button id="upload-btn" class="btn btn-secondary">
+                    <span>📂</span> Upload Image
+                </button>
+                <input type="file" id="file-input" class="hidden" accept="image/*">
+            </div>
+
+            <!-- In-Process Buttons -->
+            <div class="mt-4">
+                <button id="capture-btn" class="btn btn-danger hidden">Capture Image</button>
+                <button id="analyze-btn" class="btn btn-primary hidden">✨ Analyze Plant</button>
+            </div>
+            
+            <!-- Results, Loader, and Error -->
+            <div id="loader" class="hidden">
+                <div class="spinner"></div>
+                <p class="mt-2 text-gray-600">Analyzing, please wait...</p>
+            </div>
+
+            <div id="result" class="hidden">
+                <h3 id="result-text"></h3>
+                <p id="confidence-text"></p>
+                <!-- "Return to Home" Functionality -->
+                <button id="start-over-btn" class="btn btn-secondary" style="margin-top: 1rem;">Analyze Another</button>
+            </div>
+
+            <div id="error-message" class="hidden"></div>
+        </main>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+

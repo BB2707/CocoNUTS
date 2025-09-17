@@ -1,0 +1,33 @@
+[
+    {
+        "commodity_name": "Bud_Rot",
+        "display_name": "Bud Rot",
+        "description": "A fatal disease affecting the palm's central bud, leading to discoloration and decay. Often has a foul smell.",
+        "image_url": "https://placehold.co/600x400/c97a7a/ffffff?text=Bud+Rot"
+    },
+    {
+        "commodity_name": "Bud_Root_Dropping",
+        "display_name": "Bud Root Dropping",
+        "description": "Characterized by the dropping of young coconuts (buttons) and the decay of the root system near the bud.",
+        "image_url": "https://placehold.co/600x400/8d6e63/ffffff?text=Bud+Root+Dropping"
+    },
+    {
+        "commodity_name": "Gray_Leaf_Spot",
+        "display_name": "Gray Leaf Spot",
+        "description": "Caused by the fungus Pestalotiopsis palmarum, it appears as grayish-white spots on the leaves, leading to reduced photosynthesis.",
+        "image_url": "https://placehold.co/600x400/9e9e9e/ffffff?text=Gray+Leaf+Spot"
+    },
+    {
+        "commodity_name": "Leaf_Rot",
+        "display_name": "Leaf Rot",
+        "description": "The youngest leaves blacken and rot, especially during rainy seasons. If left untreated, it can spread to the bud and kill the palm.",
+        "image_url": "https://placehold.co/600x400/795548/ffffff?text=Leaf+Rot"
+    },
+    {
+        "commodity_name": "Stem_Bleeding",
+        "display_name": "Stem Bleeding",
+        "description": "A reddish-brown or black liquid oozes from cracks in the trunk. It's a symptom of fungal infection that can weaken the tree.",
+        "image_url": "https://placehold.co/600x400/6d4c41/ffffff?text=Stem+Bleeding"
+    }
+]
+
